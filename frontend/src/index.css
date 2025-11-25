@@ -1,0 +1,146 @@
+.change-password-page .mb-3:has(p.invalid-feedback) .eyeslash-icon {
+  position: absolute;
+  top: 46% !important;
+}
+/* css for skeleton loader */
+.skeleton {
+    background: #eee;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.skeleton::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #eee, #f5f5f5, #eee);
+    animation: loading 1.5s infinite;
+}
+
+.skeleton-text {
+    height: 20px;
+    width: 60%;
+    /* same size like "Business" text */
+}
+
+@keyframes loading {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.skeleton {
+    background: #e3e3e3;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.skeleton::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #e3e3e3, #f2f2f2, #e3e3e3);
+    animation: shimmer 1.6s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+/* Component sizes */
+.course-card .skeleton-img {
+    width: 100%;
+    height: 180px;
+}
+
+.course-card .skeleton-title {
+    width: 70%;
+    height: 18px;
+}
+
+.course-card .skeleton-meta {
+    width: 50%;
+    height: 14px;
+}
+
+.course-card .skeleton-price {
+    width: 40px;
+    height: 18px;
+}
+
+.course-card .skeleton-btn {
+    width: 80px;
+    height: 32px;
+    border-radius: 4px;
+}
+
+.course-card-detail .skeleton-title {
+  width: 60%;
+  height: 32px;
+}
+
+.course-card-detail .skeleton-badge {
+  width: 120px;
+  height: 24px;
+}
+
+.course-card-detail .skeleton-rating {
+  width: 100px;
+  height: 20px;
+}
+
+.course-card-detail .skeleton-text-small {
+  width: 60%;
+  height: 16px;
+}
+
+.course-card-detail .skeleton-text {
+  width: 80%;
+  height: 18px;
+  margin-top: 8px;
+}
+
+.course-card-detail .skeleton-box {
+  width: 100%;
+  height: 100px;
+}
+
+.course-card-detail .skeleton-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.course-card-detail .skeleton-price {
+  width: 40%;
+  height: 24px;
+}
+
+.course-card-detail .skeleton-price-small {
+  width: 30%;
+  height: 18px;
+}
+
+.course-card-detail .skeleton-btn {
+  width: 100%;
+  height: 45px;
+  border-radius: 6px;
+}
