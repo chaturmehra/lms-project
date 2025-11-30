@@ -6,8 +6,8 @@ import { Link, useParams } from 'react-router-dom';
 import { MdDragIndicator } from 'react-icons/md';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaTrashAlt } from 'react-icons/fa';
-import UpdateOutcome from './modals/updateOutcome';
 import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
+import UpdateOutcome from './modals/UpdateOutcome';
 
 const Outcome = () => {
 
