@@ -7,7 +7,7 @@ import { MdDragIndicator } from 'react-icons/md';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaTrashAlt } from 'react-icons/fa';
 import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
-import UpdateOutcome from './modals/UpdateOutcome.jsx';
+import UpdateOutcome from './modals/UpdateOutcome';
 
 const Outcome = () => {
 
